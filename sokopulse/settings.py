@@ -73,7 +73,7 @@ import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.parse(
-        'postgresql://nutrisoko_user:GcNtXX0YRhEWFnyAFmfftWvOArHrlkYn@dpg-d9k4nr1t0dsc738uomq0-a/nutrisoko',
+        'postgresql://sokopulse_user:AIXW0ahhYOnVXzaVclumr6Gf6ZTxNqUf@dpg-db1d8jegekts73d9djh0-a/sokopulse',
         conn_max_age=600,
         ssl_require=True
     )
